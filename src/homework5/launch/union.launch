@@ -1,0 +1,7 @@
+<launch>
+  <node name="turtles" type="turtle_game.py" output="screen">
+  <node name="joy_turtle_node" type="joy1.py" output="screen">
+  <node name="keyb_turtle_controller" type="key1.py" output="screen">
+  </node>
+</launch>
+
